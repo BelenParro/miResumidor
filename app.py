@@ -5,7 +5,7 @@ app = Flask(__name__)
 api = Api(app)
 @app.route('/')
 def my_form():
-    return render_template('summarizer.html')
+    return render_template('resumidor.html')
 
 @app.route('/', methods=['POST'])
 
